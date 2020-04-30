@@ -1,0 +1,150 @@
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Header style */
+
+.header .brand-logo {
+  position: static;
+}
+
+.header .currency-select input.select-dropdown {
+  margin: 0;
+  color: #fff;
+  border-bottom: none;
+}
+
+/* Form style */
+.card .datepicker-date-display,
+.card button:focus {
+  background-color: #8e24aa;
+}
+
+.card .datepicker-cancel,
+.card .datepicker-today,
+.card .datepicker-done,
+.card .datepicker-table td.is-today,
+.card input[type="text"]:not(.browser-default) + label:after,
+.card input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
+.card .dropdown-content li > a,
+.card .dropdown-content li > span {
+  color: #8e24aa;
+}
+
+.card .datepicker-table td.is-selected {
+  background-color: #8e24aa;
+  color: #fff;
+}
+
+.card input:not([type]):focus:not([readonly]),
+.card input[type="text"]:not(.browser-default):focus:not([readonly]),
+.card input[type="password"]:not(.browser-default):focus:not([readonly]),
+.card input[type="email"]:not(.browser-default):focus:not([readonly]),
+.card input[type="url"]:not(.browser-default):focus:not([readonly]),
+.card input[type="time"]:not(.browser-default):focus:not([readonly]),
+.card input[type="date"]:not(.browser-default):focus:not([readonly]),
+.card input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+.card input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+.card input[type="tel"]:not(.browser-default):focus:not([readonly]),
+.card input[type="number"]:not(.browser-default):focus:not([readonly]),
+.card input[type="search"]:not(.browser-default):focus:not([readonly]),
+.card textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #8e24aa;
+  box-shadow: 0 1px 0 0 #8e24aa;
+}
+
+.card .datepicker-day-button:focus {
+  background-color: rgba(142, 36, 170, 0.25);
+}
+
+.header .currency-select input.select-dropdown:focus {
+  border-bottom: none;
+}
+
+.header .currency-select {
+  width: 120px;
+}
+
+.header .currency-select .caret {
+  fill: #fff;
+}
+
+.header .brand-logo {
+  font-size: 1.5rem;
+}
+
+
+.ticket-card {
+  padding: 10px 15px;
+}
+
+.ticket-airline-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.ticket-airline-img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.ticket-destination {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed gray;
+}
+
+.ticket-destination .ticket-city {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.ticket-destination i.material-icons {
+  font-size: 26px;
+}
+
+.ticket-time-departure {
+  font-weight: bold;
+  color: gray;
+}
+
+.ticket-price {
+  font-size: 25px;
+  padding: 5px;
+  background: #6a1b9a;
+  color: #fff;
+}
+
+.ticket-additional-info {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tickets-empty-res-msg {
+  padding: 10px 15px;
+  text-align: center;
+  background: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
